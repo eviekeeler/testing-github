@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Links</title>  
+        <link rel= "stylesheet" href="style.css">
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+        <style>
+            
+            
+            html {
+                -webkit-box-sizing:border-box;
+                -moz-box-sizing:border-box;
+                box-sizing:border-box;
+            }
+            
+            *,*:before,*:after{
+                 -webkit-box-sizing:inherit;
+                -moz-box-sizing:inherit;
+                box-sizing:inherit;
+            }
+          
+            #container {
+                position: relative;
+                margin: 0 auto;
+                width: 1200px;
+                display:grid;
+                grid-template-columns:repeat(4, 1fr);
+                grid-gap: .5em;
+                grid-auto-rows:minmax(auto, auto);
+                
+            }
+             
+          
+            .one {
+                grid-column:1/5;
+            }
+            
+            .two {
+                grid-column: 1/5;
+                display:grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                grid-gap: .7em;
+                background-color: #FDFAE1;
+        
+                }
+       
+            
+            .three {
+                grid-column:1/2;
+                grid-row: 3/5;
+                display:grid;
+                grid-template-columns: 1fr;
+                grid-gap: .4em;
+                text-align: right;
+                
+                
+                
+            }
+            
+            .four {
+                grid-column:2/5;
+                grid-row: 3/4;
+                background-color: rgba(255,255,255,.5);
+                background-blend-mode: multiply;
+                background-image: url(images/counter.jpg);
+                height: 230px;
+                text-align: center;
+                padding: 20px;
+                color: white;
+                text-shadow: 3px 3px black;
+                
+            }
+            
+            .five  {
+                grid-column:2/5;
+                grid-row: 4/5;
+                padding: 5px 10px;
+                   
+            }
+            
+            .six, .ten {
+                grid-column:1/2;
+                
+                
+            }
+            
+            .seven, .eleven {
+                grid-column:2/3;
+            }
+            
+            .eight, .twelve {
+                grid-column:3/4;
+            }
+            
+            .nine, .thirteen {
+                grid-column: 4/5;
+            }
+            
+            
+            
+            .seven, .nine {
+                background-color:#FDFAE1;
+                padding: 20px;
+                
+            }
+            
+            .ten, .twelve{
+                background-color: lavender;
+                padding: 20px;
+            }
+            
+            .seven, .nine, .ten, .twelve{
+                padding: 20px;
+                
+            }
+            
+            .food-logos {
+                width: 200px;
+                 margin: 30px;
+            
+                
+                
+            }
+            
+            .three > div {
+                background-color: lavender;
+                padding: 10px;
+            }   
+            
+            h1 {
+                background-color: transparent;
+                font-size: 55px;
+            }
+            
+            details {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+            }
+            
+             footer {
+                grid-column: 1/5;
+                display:grid;
+                grid-template-columns: 1fr 1fr 1fr ;
+                grid-gap: .7em;
+                background-color: #FDFAE1;
+                padding: 30px;
+                font-size: 11px;
+                text-align: center;
+                height: 120px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+           <header class="one"> 
+            <img src="images/banner.png"  alt="website banner">
+            </header> 
+            
+             <nav class="two">
+                <div>
+                    <a href="Index.html">Homepage</a>
+                </div> 
+                 <div>
+                     <a href="downtown.html">Downtown</a>
+                </div> 
+                 <div>
+                     <a href="JMU.html">JMU</a>
+                </div> 
+                 <div>
+                     <a href="links.html">Links</a>
+                </div> 
+                 <div>
+                     <a href="photos.html">Photos</a>
+                </div> 
+                
+            </nav>
+            
+            <aside class="three"> 
+                <div>
+                    <a href="http://www.capitalalehouse.com/" target="_blank"> Capital Ale House</a>
+                </div>
+                
+                <div> 
+                    <a href="http://www.bellalunawoodfired.com/" target="_blank">Bella Luna</a></div>
+                
+                <div>
+                    <a href="https://www.billyjacksshack.com/" target="_blank"> Billy Jack's</a></div>
+                
+                <div>
+                    <a href="http://clementinecafe.com/" target="_blank">Clementine</a></div>
+                
+                <div>
+                    <a href="https://www.jackbrownsjoint.com/locations/harrisonburg/" target="_blank">Jack Brown's</a></div>
+                
+                <div>
+                    <a href="http://www.localchops.com/" target="_blank"> Local Chop and Grill</a></div>
+                    
+                <div>
+                    <a href="https://www.magnoliastacos.com/" target="_blank">Magnolias</a></div>
+                    
+                <div>
+                    <a href="https://www.rubysarcade.com/" target="_blank">Ruby's Arcade</a></div>
+            </aside> 
+            
+            <div class="four"> 
+                <h1>Harrisonburg's Downtown Dining</h1>
+            </div>
+            
+            <div class="five">
+                <p>Looking for a place to eat? Trying to find the perfect place to bring your friends and family? Well you happened to find the top selected dining options downtown!</p> 
+                <p>Below are some of Harrisonburg's favorite restaurants and bars. Whether you're looking for Mexican, American Comfort food, Asian, or an ice-cold craft brew, you can find your preference down below. Browse through the sites and their menus to find a meal suitable for whoever your dining with.</p>
+                <p>The Downtown Historic district consists of 40 blocks filled with many restaurants and bar. For more information on downtown visit <a href="downtown.html">Our Downtown Page</a></p>
+                
+            </div>
+            
+            <div class="six"> 
+                <a href="http://www.capitalalehouse.com/" target="_blank"><img src="images/logos/ale.png" alt="Capital Ale House Logo" class="food-logos"></a>
+            </div> 
+            
+            <div class="seven"> 
+                <a href="http://www.bellalunawoodfired.com/" target="_blank"><img src="images/logos/bella.png" alt="Bella Luna Logo" class="food-logos"></a>
+            </div>
+            
+            <div class="eight">
+                <a href="https://www.billyjacksshack.com/" target="_blank"><img src="images/logos/billy.png" alt="Billy Jack's Logo" class="food-logos"></a>
+            </div>
+             
+            <div class="nine"> 
+                <a href="http://clementinecafe.com/" target="_blank"><img src="images/logos/Clementine.png" alt="Clementines Logo" class="food-logos"></a>
+            </div>
+            
+            <div class="ten"> 
+                <a href="https://www.jackbrownsjoint.com/locations/harrisonburg/" target="_blank"><img src="images/logos/jack.png" alt="Jack Brown's Logo" class="food-logos"></a>
+            </div>
+            
+            <div class="eleven"> 
+                <a href="http://www.localchops.com/" target="_blank"><img src="images/logos/local.png" alt="Local Chop and Grill House Logo" class="food-logos"></a>
+            </div>
+            
+            <div class="twelve"> 
+                <a href="https://www.magnoliastacos.com/" target="_blank"><img src="images/logos/magnolias.png" alt="Magnolia's Taco and Tequilla Logo" class="food-logos"></a>
+            </div>
+            
+            <div class="thirteen"> 
+                <a href="https://www.rubysarcade.com/" target="_blank"><img src="images/logos/rubys.png" alt="Rubys Logo" class="food-logos"></a>
+            </div>
+            
+            <footer class="footer">
+                <div>
+                    <img src="images/jmulogo.png" width= "100" alt="jmu logo">
+                </div> 
+                 <div>
+                     <a href="https://www.facebook.com"><img src="images/fb.png" class="social-medias" alt="facebook logo"></a>
+                     <a href="https://www.instagram.com"><img src="images/insta.png" class="social-medias" alt="instagram logo"></a>
+                     <a href="https://www.twitter.com" ><img src="images/Twitter.png" class="social-medias" alt="twitter logo"></a>
+                </div> 
+                 <div>
+                     <p>&copy; 2019 James Madison University</p>
+                     <p>Media Arts &amp; Design</p>
+                     <p>Yvonne Keeler</p>
+                </div>
+            </footer>
+        </div>  
+    </body>
+</html>
+

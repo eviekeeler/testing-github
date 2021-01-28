@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Photos</title>  
+        <link rel= "stylesheet" href="style.css">
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+        <style>
+            
+            
+            html {
+                -webkit-box-sizing:border-box;
+                -moz-box-sizing:border-box;
+                box-sizing:border-box;
+            }
+            
+            *,*:before,*:after {
+                 -webkit-box-sizing:inherit;
+                -moz-box-sizing:inherit;
+                box-sizing:inherit;
+            }
+          
+             #container {
+                position: relative;
+                margin: 0 auto;
+                width: 1200px;
+                display:grid;
+                grid-template-columns:repeat(3, 1fr);
+                grid-gap: .5em;
+                grid-auto-rows:minmax(auto, auto);   
+            }
+            
+            .one {
+                grid-column:1/4;
+            }
+            
+            .two {
+                grid-column: 1/4;
+                display:grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                grid-gap: .7em;
+                background-color: #FDFAE1;
+        
+                }
+       
+            .three {
+                grid-column:1/4;
+            }
+            
+            .four{
+                grid-column:1/2;
+                background-color: lavender;
+            }
+            
+            .five {
+                grid-column:2/3;
+               
+            }
+            
+            .six {
+                grid-column:3/4;
+                background-color: lavender;
+               
+            }
+            
+            .seven {
+                grid-column:1/2;
+            }
+            
+            
+            .eight {
+                grid-column:2/3;
+                background-color: lavender;
+            }
+            
+            .nine {
+                grid-column:3/4;
+            }
+            
+            .four, .five, .six, .seven, .eight, .nine {
+                padding: 30px;
+                font-size: 12px;
+                
+            }
+            
+            h1 {
+                font-size: 45px;
+            }
+               
+            
+            footer {
+                grid-column: 1/4;
+                display:grid;
+                grid-template-columns: 1fr 1fr 1fr ;
+                grid-gap: .7em;
+                background-color: #FDFAE1;
+                padding: 30px;
+                font-size: 11px;
+                text-align: center;
+                height: 120px;
+            }
+            
+            
+            
+            
+                 
+           
+        </style>
+    </head>
+    <body>
+        <div id="container">
+           <header class="one"> 
+            <img src="images/banner.png"  alt="website banner">
+            </header> 
+            
+             <nav class="two">
+                <div>
+                    <a href="Index.html">Homepage</a>
+                </div> 
+                 <div>
+                     <a href="downtown.html">Downtown</a>
+                </div> 
+                 <div>
+                     <a href="JMU.html">JMU</a>
+                </div> 
+                 <div>
+                     <a href="links.html">Links</a>
+                </div> 
+                 <div>
+                     <a href="photos.html">Photos</a>
+                </div> 
+                
+            </nav>
+            
+            <div class="three"> 
+                <h1>Photo Gallery - James Madison University</h1>  
+            </div> 
+                
+            <div class="four"> 
+                <a href ="images/fountain.jpg" target="_blank"><img src="images/fountain.jpg" alt="Fountain on the quad" class="zoom"></a>
+                <p>This is the fountain that sits outside of Carrier Library. When the weather is warmer, organizations usually gather around here to spread awareness of things.</p>
+            </div>
+            
+            <div class="five"> 
+                <a href ="images/flag.jpg" target="_blank"><img src="images/flag.jpg" alt="flags on east campus" class="zoom"></a>
+                <p>This image shows the flag poles and the statue on east campus outside of the ISAT building.</p>
+            </div> 
+            
+            <div class="six"> 
+                <a href ="images/lake.jpg" target="_blank"><img src="images/lake.jpg" alt="Newman Lake" class="zoom"></a>
+                <p>This is Newman lake located behind the lakeview residence halls also referred to as "Greek Row".</p>
+            </div> 
+            
+            <div class="seven"> 
+                <a href ="images/dhall.jpg" target="_blank"><img src="images/dhall.jpg" alt="Dhall the new dining hall" class="zoom"></a>
+                <p>This is the new Dining hall that was completed in 2018. It is called Dhall and was under construction for 3 years.</p>
+            </div>
+            
+            <div class="eight"> 
+                <a href ="images/quad.jpg" target="_blank"><img src="images/quad.jpg" alt="the quad" class="zoom"></a>
+                <p>This is the quad located on main campus in the bluestone area where most students have classes.</p>
+            </div>
+            
+            <div class="nine"> 
+                <a href= "images/dog.jpg" target="_blank"><img src="images/dog.jpg" alt="duke dog" class="zoom"></a>
+                <p>The Duke Dog is the mascot for the school and the statue is a great photo op for students and visitors. Located right outside the stadium to strengthen the school spirit and pride.</p>x
+            </div>
+            
+            <footer class="footer">
+                <div>
+                    <img src="images/jmulogo.png" width= "100" alt="jmu logo">
+                </div> 
+                 <div>
+                     <a href="https://www.facebook.com"><img src="images/fb.png" class="social-medias" alt="facebook logo"></a>
+                     <a href="https://www.instagram.com"><img src="images/insta.png" class="social-medias" alt="instagram logo"></a>
+                     <a href="https://www.twitter.com" ><img src="images/Twitter.png" class="social-medias" alt="twitter logo"></a>
+                </div> 
+                 <div>
+                     <p>&copy; 2019 James Madison University</p>
+                     <p>Media Arts &amp; Design</p>
+                     <p>Yvonne Keeler</p>
+                </div>
+            </footer>
+        </div>  
+    </body>
+</html>
+

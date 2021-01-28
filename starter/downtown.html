@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Downtown</title>  
+        <link rel= "stylesheet" href="style.css">
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+        <style>
+            
+             html {
+                -webkit-box-sizing:border-box;
+                -moz-box-sizing:border-box;
+                box-sizing:border-box;
+            }
+            
+            *,*:before,*:after{
+                 -webkit-box-sizing:inherit;
+                -moz-box-sizing:inherit;
+                box-sizing:inherit;
+            }
+            
+             #container {
+                position: relative;
+                margin: 0 auto;
+                width: 1200px;
+                display:grid;
+                grid-template-columns:repeat(6, 1fr);
+                grid-gap: .5em;
+                grid-auto-rows:minmax(auto, auto);
+                
+            }
+            
+            .one {
+                grid-column:1/7;
+            }
+            
+            .two {
+                grid-column: 1/7;
+                display:grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                grid-gap: .7em;
+                background-color: #FDFAE1;
+        
+                }
+       
+            .three {
+                grid-column:1/7;
+                
+                
+            
+                
+            }
+            
+          
+            
+            .five {
+                grid-column:1/3;
+                padding: 20px 0px 0px 0px;
+                
+
+            }
+            
+            .six {
+                grid-column:3/7;
+                padding: 0px 10px;
+                
+                
+                
+            }
+            
+              .seven {
+                grid-column:1/5;
+                padding: 0px 10px;
+                
+                
+            }
+            
+              .eight {
+                grid-column:5/7;
+                padding:0px 0px 20px 0px ;
+                
+                
+                
+            }
+            
+           .header {
+               margin:auto;
+               display: block;
+               width: 1200px;
+            }
+            
+             footer {
+                grid-column: 1/7;
+                display:grid;
+                grid-template-columns: 1fr 1fr 1fr ;
+                grid-gap: .7em;
+                background-color: #FDFAE1;
+                padding: 30px;
+                font-size: 11px;
+                text-align: center;
+                height: 120px;
+            }
+            
+           
+        </style>
+    </head>
+    <body>
+        <div id="container">
+           <header class="one"> 
+            <img src="images/banner.png" alt="website banner">
+            </header> 
+            
+             <nav class="two">
+                <div>
+                    <a href="Index.html">Homepage</a>
+                </div> 
+                 <div>
+                     <a href="downtown.html">Downtown</a>
+                </div> 
+                 <div>
+                     <a href="JMU.html">JMU</a>
+                </div> 
+                 <div>
+                     <a href="links.html">Links</a>
+                </div> 
+                 <div>
+                     <a href="photos.html">Photos</a>
+                </div> 
+                
+            </nav>
+            
+            <div class="three">
+                <h1>Historic Downtown District of Harrisonburg</h1>
+            </div> 
+            
+            
+            <div class="five"> 
+                <img src="images/downtown2.jpg" alt="downtown street">
+                <p class="catpion">This is an image of the downtown by day. This picture was captured in fornt of Gitchells Photography located at 79 E Market St.</p>
+            </div> 
+            
+            <div class="six">
+                <h2>History</h2>
+                <p>The downtown Historic district was established in 1779 and is centered around the Court Square. Downtown architecture consists of early stones, brick and logs, and more commercial materials and buildings from the 19th and 20th century. The different types of architecture represent the growth of the historic downtown to keep up with modern day style. </p>
+
+                <p>During the late 19th century, the Baltimore and Ohio Railroad had made it to Harrisonburg creating a demand for new and more houses. Many new homes were created along Main Street, one famous one in particular was Queen Anne Joshua Wilton&#39;s House, which now is a bed and breakfast but remains the same style from being built.</p>  
+
+                <p>During the 20th century, Rockingham country became a national leader in poultry production bringing new factories and warehouses along Chesapeake Street. </p>
+
+                <p>In 1960 there was a trend of tearing down old buildings and rebuilding them. Rather than that, many downtown buildings are being refurbished and put to better use. Today many old and unused buildings are being turned into apartments and offices to welcome more people such as the Wetsel Seed Company Building.</p>
+            </div>
+            
+            <div class="seven"> 
+                <h2>What Downtown has to Offer</h2>
+                <p>Downtown Harrisonburg is full of many dining options, locally owned shops and boutiques, historical architecture and museums. The downtown district is made up of 40 blocks and is a great way to spend the day.</p>
+                
+                <p>Stop downtown to try some of our local food and drinks. The local and college favorites for dining and bar options are Jack Brown's, Bella Luna, and Ruby's Arcade. For more dining options visit our <a href="Links.html"> dining options page.</a></p>
+                
+                    
+                <p> There are many events that happen weekly, such as karaoke, fundraiser nights, and concerts. You won't regret visiting the Harrisonburg&#39;s most loved downtown.
+                For a list of our weekly and annual events be sure to visit <a href="https://www.visitharrisonburgva.com/annual-events/">The Visit Harrisonburg Site!</a></p>
+                
+                 <p>Don't forget to visit some of the most historical and informative museums located downtown. Some of them include the Explore More Discovery Museum, The Museum of American Jewelry Design and Manufacturing, Virginia Quilt Museum, and the Valley Turnpike Museum. </p>
+                
+            </div> 
+            
+            <div class="eight"> 
+                <img src="images/downtown1.jpg" alt="downtown street">
+                <p class="catpion">This image captures downtown by night where many students hangout. A great place to eat, watch live entertainment, or hangout!</p>
+            </div> 
+            
+           <footer class="footer">
+                <div>
+                    <img src="images/jmulogo.png" width= "100" alt="jmu logo">
+                </div> 
+                 <div>
+                     <a href="https://www.facebook.com"><img src="images/fb.png" class="social-medias" alt="facebook logo"></a>
+                     <a href="https://www.instagram.com"><img src="images/insta.png" class="social-medias" alt="instagram logo"></a>
+                     <a href="https://www.twitter.com" ><img src="images/Twitter.png" class="social-medias" alt="twitter logo"></a>
+                </div> 
+                 <div>
+                     <p>&copy; 2019 James Madison University</p>
+                     <p>Media Arts &amp; Design</p>
+                     <p>Yvonne Keeler</p>
+                </div>
+            </footer>
+        </div>  
+    </body>
+</html>
+

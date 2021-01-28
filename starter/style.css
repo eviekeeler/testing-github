@@ -1,0 +1,81 @@
+             
+   
+
+body {
+    font-family:Tahoma, Geneva, sans-serif;
+}
+
+a:link, a:visited, a:active, a:hover {
+                font-family:Tahoma, Geneva, sans-serif;
+                font-size: 16px;
+                color:mediumpurple;
+                text-decoration: none;
+            }
+
+
+            
+h1 {
+    text-align: center;
+    font-family: impact;
+    letter-spacing: 4px;
+    font-size: 35px;
+    
+    
+}
+       
+h2 {
+    font-family: impact;
+    text-align: center;
+    background-color: #FDFAE1;
+    letter-spacing: 2px;
+    font-size: 24px;
+    padding: 10px;
+}
+
+h3 {font-family: impact;
+    text-align: center;
+    
+}
+
+h4 {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+
+	       }
+
+ 
+.two > div {
+    padding: 10px;
+    text-align: center;
+                
+            } 
+
+            
+
+.zoom, .food-logos, .two > div  {
+  transition: transform .2s;
+  
+}
+
+.zoom:hover, .food-logos:hover, .two > div:hover {
+  transform: scale(1.1);
+}
+
+    
+.social-medias {
+    width: 50px;
+}
+
+.catpion {
+    font-size: 12px;
+}
+
+
+
+ 
+    
+
+                

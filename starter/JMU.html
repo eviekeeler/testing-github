@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>JMU</title>  
+        <link rel= "stylesheet" href="style.css">
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+        <style>
+            
+             html {
+                -webkit-box-sizing:border-box;
+                -moz-box-sizing:border-box;
+                box-sizing:border-box;
+            }
+            
+            *,*:before,*:after{
+                 -webkit-box-sizing:inherit;
+                -moz-box-sizing:inherit;
+                box-sizing:inherit;
+            }
+            
+             #container {
+                position: relative;
+                margin: 0 auto;
+                width: 1200px;
+                display:grid;
+                grid-template-columns:repeat(6, 1fr);
+                grid-gap: .5em;
+                grid-auto-rows:minmax(auto, auto);
+                
+            }
+            
+            .one {
+                grid-column:1/7;
+            }
+            
+            .two {
+                grid-column: 1/7;
+                display:grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                grid-gap: .7em;
+                background-color: #FDFAE1;
+        
+                }
+       
+            
+            .three {
+                grid-column:1/7;
+                
+            }
+            
+            .four {
+                grid-column:1/7;
+                background-color: lavender;
+                
+                
+            }
+            
+            .five {
+                grid-column:1/3;
+                margin: 10px;
+                
+                
+               
+            }
+            
+            .six {
+                grid-column:3/7;
+                padding: 5px 30px;
+                
+                
+                
+            }
+            
+              .seven {
+                grid-column:1/5;
+                padding: 5px 30px;
+                
+                
+            }
+            
+              .eight {
+                grid-column:5/7;
+                margin: 10px;
+                
+                
+                
+            }
+            
+           .header {
+               margin:auto;
+               display: block;
+               width: 1200px;
+            }
+            
+            .five, .eight > img {
+                width: 380px;
+            }
+            
+             footer {
+                grid-column: 1/7;
+                display:grid;
+                grid-template-columns: 1fr 1fr 1fr ;
+                grid-gap: .7em;
+                background-color: #FDFAE1;
+                padding: 30px;
+                font-size: 11px;
+                text-align: center;
+                height: 120px;
+            }
+            
+            .partners {
+                display:grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-gap: .7em;
+            }
+            
+            .partners > div {
+                width: 150px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div id="container">
+           <header class="one"> 
+            <img src="images/banner.png"  alt="website banner">
+            </header> 
+             <nav class="two">
+                <div>
+                    <a href="Index.html">Homepage</a>
+                </div> 
+                 <div>
+                     <a href="downtown.html">Downtown</a>
+                </div> 
+                 <div>
+                     <a href="JMU.html">JMU</a>
+                </div> 
+                 <div>
+                     <a href="links.html">Links</a>
+                </div> 
+                 <div>
+                     <a href="photos.html">Photos</a>
+                </div> 
+                
+            </nav>
+            
+            <div class="three">
+                <img src="images/jmu3.jpg" width="900" alt=" JMU campus" class="header" >  
+            </div>
+            
+            <div class="four"> 
+                <h1>James Madison University</h1>
+            </div>
+            
+            <div class="five"> 
+                <img src="images/quad.jpeg" alt="JMU quad"> 
+                <p class="catpion"> "The Quad" is located on JMU's main campus in the Bluestone area where many students have their classes. </p>
+            </div>
+            
+            <div class="six">
+                <h2>JMU's Role in the Community</h2>
+                <p>James Madison University was founded in 1908 and has grown tremendously since then. Throughout the school there are 20,000 undergraduates and offers over 130 different major programs. There are also over 1000 staff and professors. The school offers many jobs for students and even people who live in Harrisonburg. Many people can work in dining halls, the university recreation center, or even places such as the student success center, or safety workers. </p>
+                <p>Without James Madison University, there would be less jobs offered to the public, and there would also be less of an economic income. By having such a large college population, there are many more people who need to buy stuff and who enjoy eating out/ go out. Downtown businesses are booming such as bars Jack Brown&#39;s and Ruby&#39;s and also businesses such as Walmart or Target are where most students shop at.</p> 
+                <p>JMU also has many buildings offered to the community for public use such as the Planatarium located in Miller Hall, The Forbes Performing Arts centers which shows plays and musicals, and the Arboretum! </p>
+            </div>
+            
+            <div class="seven"> 
+                <h2>JMU's Partnerships with the Community</h2>
+                <p>James Madison University also partners with many local businesses and non-profits to raise money and awareness. The most common partnerships of JMU are Boys &amp; Girls club of Harrisonburg and Rockingham, Blue Ridge Area Food bank, Big Brothers Big Sisters, Cat's Cradle, and many more. For many of these partnerships, students work with members of the clubs to help them and spend time with young children or elders.</p>
+                <p>The Big Brothers Big Sisters is an opportunity for students to either visit schools and read children books or can be matched with a child and have one on one time. Within this time, a student dedicates a certain amount of time per week, where they build a relationship by sharing hobbies, going to the park, or anything they want to do with their "little brother or sister". </p>
+                <div class="partners">
+                    <div><a href="http://www.bbbshr.org/" target="_blank"><img src="images/logos/bbbs.png" class="zoom" alt="Big Brothers Big Sisters logo"></a></div>
+                    
+                    <div><a href="https://www.brafb.org/give-now/?utm_source=google&utm_medium=cpc&utm_term=blue%20ridge%20food%20bank&utm_campaign=paid&gclid=Cj0KCQjwjpjkBRDRARIsAKv-0O26usp8sZDWZkLtKIXTod6K8I7-Y3afMcGThOHP1hhTx8y3ZGHHIAcaAlUgEALw_wcB" target="_blank"><img src="images/logos/foodbank.png" class="zoom"  alt="Blue Ridge Food Bank logo"></a></div>
+                    
+                    <div><a href="https://bgca.secure.force.com/maindonationform/rc_connect__campaign_designform?id=701460000007DhdAAE&form=00P46000006A3D3EAK&gclid=Cj0KCQjwjpjkBRDRARIsAKv-0O3de8ibaHrOd6T6aqTLbouQP3jOCj6Bzuj1k6rrJ94Pc0RDj76uu3UaAvGxEALw_wcB"><img src="images/logos/bgc.png" class="zoom"  alt="Boys and Girls club logo"></a></div>
+                    
+                    <div><a href="http://catscradleva.org/"><img src="images/logos/cat.png" class="zoom"  alt="Cats Cradle logo"></a></div>
+                </div>
+            </div> 
+            
+            <div class="eight"> 
+                <img src="images/urec.jpeg" alt="JMU UREC">
+                <p class="catpion">JMU's University Recreation center also referred to as "UREC". The UREC Mission is to promote and advance healthy lifestyles through educational programs, participation opportunities, and support services</p>
+            </div> 
+            
+          <footer class="footer">
+                <div>
+                    <img src="images/jmulogo.png" width= "100" alt="jmu logo">
+                </div> 
+                 <div>
+                     <a href="https://www.facebook.com"><img src="images/fb.png" class="social-medias" alt="facebook logo"></a>
+                     <a href="https://www.instagram.com"><img src="images/insta.png" class="social-medias" alt="instagram logo"></a>
+                     <a href="https://www.twitter.com" ><img src="images/Twitter.png" class="social-medias" alt="twitter logo"></a>
+                </div> 
+                 <div>
+                     <p>&copy; 2019 James Madison University</p>
+                     <p>Media Arts &amp; Design</p>
+                     <p>Yvonne Keeler</p>
+                </div>
+            </footer>
+        </div>  
+    </body>
+</html>
+
